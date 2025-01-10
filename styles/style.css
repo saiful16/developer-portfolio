@@ -93,3 +93,94 @@ nav ul {
     max-width: 585px;
     max-height: 356px;
 }
+
+/* main section styles */
+main {
+    margin: 0 230px;
+}
+
+/* about section styles  */
+.about {
+    max-width: 1140px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+.about-container {
+    background: rgb(255, 248, 243);
+    padding: 100px 100px;
+    margin-top: 130px;
+}
+
+.about-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.item-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.item-description {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* what i do section start here */
+.what-i-do-container {
+    text-align: center;
+}
+
+.about-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.profession-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 909px;
+    margin: 30px auto 50px;
+}
+
+/* skills styles */
+.skills-container {
+    display: flex;
+    text-align: left;
+    gap: 24px;
+    margin: 0 auto 0;
+    width: 100%;
+}
+
+.skills {
+    border-radius: 5px;
+    max-width: 267px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
